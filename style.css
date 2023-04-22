@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat';
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #FCAF02;
+    position: sticky;
+    top: 0px;
+}
+
+.left {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.right a {
+    text-decoration: none;
+    color: black;
+}
+
+.about-section {
+    display: flex;
+    justify-content: baseline;
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 50px
+}
+
+p {
+    color: white;
+    padding: 10px;
+}
+
+.about-section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 15px;
+    align-items: flex-start
+}
+
+.login {
+    color: black;
+    font-weight: 800;
+    background-color: #FCAF02;
+    border-radius: 500px;
+    width: 150px;
+    height: 40px;
+}
+
+.about-section-right {
+    padding: 10px;
+}
+
+#cont-h {
+    color: #FCAF02;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 15px;
+    margin-top: 25px;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form-div .text-dec {
+    border: 2px solid #FCAF02;
+    border-radius: 100px;
+    width: 1250px;
+    height: 30px;
+    background-color: black;
+    color: #FCAF02;
+    padding: 5px;
+    margin: 20px;
+}
+
+.form-div-partial {
+    display: flex;
+}
+
+.form-div .part-text-doc {
+    border: 2px solid #FCAF02;
+    border-radius: 100px;
+    width: 598px;
+    height: 30px;
+    background-color: black;
+    color: #FCAF02;
+    padding: 5px;
+    margin: 20px;
+}
+
+.text-dec-p {
+    color: #FCAF02;
+
+    padding-left: 30px;
+    padding-top: 5px;
+
+}
+
+.table-section {
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.table-section .sn {
+    color: #FCAF02;
+    width: 150px;
+    text-align: start;
+    height: 52px;
+    padding-left: 15px
+}
+
+
+.table-section .name {
+    color: #FCAF02;
+    width: 350px;
+    text-align: start;
+    height: 52px;
+    padding-left: 15px
+}
+
+.table-section .desc {
+    color: #FCAF02;
+    width: 720px;
+    text-align: start;
+    height: 52px;
+    padding-left: 15px
+}
+
+
+.table-section tbody>tr:last-child {
+    background-color: #FCAF02;
+    color: black !important;
+}
+
+.table-section tbody>tr:last-child td {
+    color: black !important;
+}
